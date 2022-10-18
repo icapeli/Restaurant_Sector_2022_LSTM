@@ -35,3 +35,4 @@ Overall, the results were good. I chose to use the LSTM model because its result
 ## PRICE PREDICITONS
 
 # CONCLUSION
+The top 3 stocks were**dd**; the lowest 3 were**dd**. Overall, the results were good but the high MAPEs for a few companies and the high MAPEs for the COVID predictions certainly leave room for improvement. Moreover, more exogenous variables like commodities prices, inflation rates, and volume numbers would also enhance the dataset. Include each of those would involve making assumptions about effects just like I did for COVID death numbers. Also, other models like a VARMAX, xgboost regressor model, or a hybrid model may also prove fruitful. 
