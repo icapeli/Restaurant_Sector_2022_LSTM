@@ -23,6 +23,7 @@ I used Yahoo Finance site to obtain my price data. I chose to settle on closing 
 
 ## LSTM 
 
+![image](https://user-images.githubusercontent.com/101752113/196529090-cddeb083-d59d-4059-a025-55e7d9c05b3a.png)
 
 Surprisingly, the Prophet model performed better than the LSTM but the  MAPE value are still quite high. However, these results do not compare unfavorably to results found elsewhere:
 
@@ -35,11 +36,11 @@ Here is a comparison of MAPEs for each equity.
 Overall, the results were good. I chose to use the LSTM model because its results were the best except for a few outliers that I will have to approach with caution.
 
 ## PRICE PREDICITONS
-![image](https://user-images.githubusercontent.com/101752113/196524287-b92a3714-2def-4e8b-8a62-db6d95b88771.png)
+![image](https://user-images.githubusercontent.com/101752113/196526582-2c3fcc37-f170-4c59-bdfd-6c06ecdd43fd.png)
 
 ### TOP 3
-
+![image](https://user-images.githubusercontent.com/101752113/196528084-3f0acc73-9066-4e3e-9590-0a45a179bafa.png)
 ### BOTTOM 3
-
+![image](https://user-images.githubusercontent.com/101752113/196528836-db967abd-e4a9-4009-9f40-f1b617b918f3.png)
 # CONCLUSION
 The top 3 stocks were**dd**; the lowest 3 were**dd**. Overall, the results were good but the high MAPEs for a few companies and the high MAPEs for the COVID predictions certainly leave room for improvement. Moreover, more exogenous variables like commodities prices, inflation rates, and volume numbers would also enhance the dataset. Include each of those would involve making assumptions about effects just like I did for COVID death numbers. Also, other models like a VARMAX, XGBoost Regressor model, or a hybrid model may also prove fruitful. 
