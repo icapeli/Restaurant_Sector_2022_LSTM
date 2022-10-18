@@ -29,10 +29,15 @@ Surprisingly, the Prophet model performed better than the LSTM but the  MAPE val
 ## PRICE MODELING
 Here is a comparison of MAPEs for each equity.
 
-
+![image](https://user-images.githubusercontent.com/101752113/196524535-05d12454-76b3-4cbf-b1ce-4547fd41c61e.png)
 Overall, the results were good. I chose to use the LSTM model because its results were the best except for a few outliers that I will have to approach with caution.
 
 ## PRICE PREDICITONS
+![image](https://user-images.githubusercontent.com/101752113/196524287-b92a3714-2def-4e8b-8a62-db6d95b88771.png)
+
+### TOP 3
+
+### BOTTOM 3
 
 # CONCLUSION
 The top 3 stocks were**dd**; the lowest 3 were**dd**. Overall, the results were good but the high MAPEs for a few companies and the high MAPEs for the COVID predictions certainly leave room for improvement. Moreover, more exogenous variables like commodities prices, inflation rates, and volume numbers would also enhance the dataset. Include each of those would involve making assumptions about effects just like I did for COVID death numbers. Also, other models like a VARMAX, XGBoost Regressor model, or a hybrid model may also prove fruitful. 
