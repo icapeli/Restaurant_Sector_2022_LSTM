@@ -48,6 +48,7 @@ Overall, the results were good. I chose to use the LSTM model because its result
 **The top performers were Cracker Barrel, Papa Johns, and Dominos while the poorest performers were Chipotle, Wingstop, and McDonalds** Overall, the results were good but the high MAPEs for a few companies and the high MAPEs for the COVID predictions certainly leave room for improvement. Moreover, more exogenous variables like commodities prices, inflation rates, and volume numbers would also enhance the dataset. Include each of those would involve making assumptions about effects just like I did for COVID death numbers. Also, other models like a VARMAX, XGBoost Regressor model, or a hybrid model may also prove fruitful. 
 
 # REPOSITORY STRUCTURE
+```bash
 ├── gitignore
 │  
 ├── 5_year_restaurant_prices.xlsx
@@ -56,5 +57,4 @@ Overall, the results were good. I chose to use the LSTM model because its result
 ├── Q4 restaurant equity .ipynb
 ├── README.md
 ├── presentation.pdf
-
-
+```
