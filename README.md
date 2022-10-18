@@ -1,5 +1,5 @@
 # PREDICTING RESTAURANT EQUITY PRICES USING AN LSTM
-The COVID-19 pandemic has changed the landscape of the restaurant industry. This repository contains a model intended to predict restaurant equity prices for the remainder of the year 2022. Using  projected COVID-19 deaths as an exogenous variable, I use an LSTM to predict future prices. Although the model is limited by the inherent diffculty of predicting COVID deaths, the results were solid. The top 3 best perfomers were**worse** . The worst 3 performers were **worse**
+The COVID-19 pandemic has changed the landscape of the restaurant industry. This repository contains a model intended to predict restaurant equity prices for the remainder of the year 2022. Using  projected COVID-19 deaths as an exogenous variable, I use an LSTM to predict future prices. Although the model is limited by the inherent diffculty of predicting COVID deaths, the results were solid. The top 3 best perfomers were**Cracker Barrel, Papa John's, and Dominos** . The worst 3 performers were **worse**
 # SUMMARY
 # BUSINESS UNDERSTANDING
 Currently, the market is in a period of uncertainty. Interest rate hikes, supply chain questions, international conflicts, and a still unrelenting but increasingly silent pandemic hover over the marketplace. For any investors looking to save on fees and do their own trading, these problems making profitable trading a daunting task. The restaurant industry, in particular, is vulnerable to so many of those issues. 
@@ -39,8 +39,9 @@ Overall, the results were good. I chose to use the LSTM model because its result
 ![image](https://user-images.githubusercontent.com/101752113/196526582-2c3fcc37-f170-4c59-bdfd-6c06ecdd43fd.png)
 
 ### TOP 3
-![image](https://user-images.githubusercontent.com/101752113/196528084-3f0acc73-9066-4e3e-9590-0a45a179bafa.png)
+![image](https://user-images.githubusercontent.com/101752113/196537020-01c6efd6-98a5-42e8-9c80-fd85ead16e17.png)
 ### BOTTOM 3
-![image](https://user-images.githubusercontent.com/101752113/196528836-db967abd-e4a9-4009-9f40-f1b617b918f3.png)
+![image](https://user-images.githubusercontent.com/101752113/196536880-02a9be50-2c48-4e28-96ce-f5be03948a9c.png)
+
 # CONCLUSION
-The top 3 stocks were**dd**; the lowest 3 were**dd**. Overall, the results were good but the high MAPEs for a few companies and the high MAPEs for the COVID predictions certainly leave room for improvement. Moreover, more exogenous variables like commodities prices, inflation rates, and volume numbers would also enhance the dataset. Include each of those would involve making assumptions about effects just like I did for COVID death numbers. Also, other models like a VARMAX, XGBoost Regressor model, or a hybrid model may also prove fruitful. 
+**The top performers were Cracker Barrel, Papa Johns, and Dominos while the poorest performers were Chipotle, Wingstop, and McDonalds** Overall, the results were good but the high MAPEs for a few companies and the high MAPEs for the COVID predictions certainly leave room for improvement. Moreover, more exogenous variables like commodities prices, inflation rates, and volume numbers would also enhance the dataset. Include each of those would involve making assumptions about effects just like I did for COVID death numbers. Also, other models like a VARMAX, XGBoost Regressor model, or a hybrid model may also prove fruitful. 
