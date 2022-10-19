@@ -45,8 +45,12 @@ Overall, the results were good. I chose to use the LSTM model because its result
 
 ### TOP 3
 I chose to exclude results from the stocks with high MAPEs because their results were potentially unreliable. After eliminating them, the top perfomers were:
+
 ![image](https://user-images.githubusercontent.com/101752113/196776277-eea98f98-9f21-4b79-8a2c-5ab92c4b45bf.png)
+
+
 The worse 3 performers were:
+
 ### BOTTOM 3
 ![image](https://user-images.githubusercontent.com/101752113/196776816-f0f3e3ce-676e-4841-b9c2-02ba458611b1.png)
 
