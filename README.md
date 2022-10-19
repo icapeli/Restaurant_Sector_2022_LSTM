@@ -20,13 +20,14 @@ I used Yahoo Finance site to obtain my price data. I chose to settle on closing 
 
 # COVID MODELING
 ## PROPHET
-![image](https://user-images.githubusercontent.com/101752113/196505182-2cfb9325-1b72-4e30-aed9-708ae257abef.png)
+![image](https://user-images.githubusercontent.com/101752113/196771390-a5af457c-43ee-47b3-8a05-d406ed568493.png)
 
 ## LSTM 
 
 ![image](https://user-images.githubusercontent.com/101752113/196529090-cddeb083-d59d-4059-a025-55e7d9c05b3a.png)
 
 Surprisingly, the Prophet model performed better than the LSTM but the  MAPE value are still quite high. However, these results do not compare unfavorably to results found elsewhere:
+![image](https://user-images.githubusercontent.com/101752113/196505182-2cfb9325-1b72-4e30-aed9-708ae257abef.png)
 
 # MODELING 
 
