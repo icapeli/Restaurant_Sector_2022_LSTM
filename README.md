@@ -36,7 +36,8 @@ Here are my projections:
 ## PRICE MODELING
 Here is a comparison of MAPEs for each equity.
 
-![image](https://user-images.githubusercontent.com/101752113/196526076-b547791a-d1e7-433a-b1f7-b9ce4d54d4f0.png)
+![image](https://user-images.githubusercontent.com/101752113/196774050-ff242e8d-5921-4617-8cc4-f35dca131903.png)
+
 Overall, the results were good. I chose to use the LSTM model because its results were the best except for a few outliers that I will have to approach with caution.
 
 ## PRICE PREDICITONS
