@@ -1,6 +1,6 @@
 ![image](https://user-images.githubusercontent.com/101752113/196540084-8af6bf70-e6da-49a6-b1d3-208e423aced9.png)
 # PREDICTING RESTAURANT EQUITY PRICES USING AN LSTM
-The COVID-19 pandemic has changed the landscape of the restaurant industry. This repository contains a model intended to predict restaurant equity prices for the remainder of the year 2022. Using  projected COVID-19 deaths as an exogenous variable, I use an LSTM to predict future prices. Although the model is limited by the inherent diffculty of predicting COVID deaths, the results were solid. The top 3 best perfomers were **Cracker Barrel, Papa John's, and Dominos** . The worst 3 performers were **Chipotle, Wingstop, and McDonalds**.
+The COVID-19 pandemic has changed the landscape of the restaurant industry. This repository contains a model intended to predict restaurant equity prices for the remainder of the year 2022. Using  projected COVID-19 deaths as an exogenous variable, I use an LSTM to predict future prices. Although the model is limited by the inherent diffculty of predicting COVID deaths, the results were solid. The top 3 best perfomers were **Cracker Barrel, Papa John's, and Starbucks** . The worst 3 performers were **Chipotle, Darden, and Wingstop**.
 # BUSINESS UNDERSTANDING
 Currently, the market is in a period of uncertainty. Interest rate hikes, supply chain questions, international conflicts, and a still unrelenting but increasingly silent pandemic hover over the marketplace. For any investors looking to save on fees and do their own trading, these problems making profitable trading a daunting task. The restaurant industry, in particular, is vulnerable to so many of those issues. 
 
@@ -41,19 +41,17 @@ Here is a comparison of MAPEs for each equity.
 Overall, the results were good. I chose to use the LSTM model because its results were the best except for a few outliers that I will have to approach with caution.
 
 ## PRICE PREDICITONS
-![image](https://user-images.githubusercontent.com/101752113/196526582-2c3fcc37-f170-4c59-bdfd-6c06ecdd43fd.png)
+![image](https://user-images.githubusercontent.com/101752113/196774537-2e081379-a9bd-46ee-bed2-444f862fa6ba.png)
 
 ### TOP 3
-As you can see, I chose to exclude results from the stocks with high MAPEs because their results were potentially unreliable. After eliminating them, the top perfomers were:
-![image](https://user-images.githubusercontent.com/101752113/196537020-01c6efd6-98a5-42e8-9c80-fd85ead16e17.png)
+I chose to exclude results from the stocks with high MAPEs because their results were potentially unreliable. After eliminating them, the top perfomers were:
+![image](https://user-images.githubusercontent.com/101752113/196776277-eea98f98-9f21-4b79-8a2c-5ab92c4b45bf.png)
 The worse 3 performers were:
 ### BOTTOM 3
-![image](https://user-images.githubusercontent.com/101752113/196536880-02a9be50-2c48-4e28-96ce-f5be03948a9c.png)
-
-
+![image](https://user-images.githubusercontent.com/101752113/196776816-f0f3e3ce-676e-4841-b9c2-02ba458611b1.png)
 
 # CONCLUSION
-**The top performers were Cracker Barrel, Papa Johns, and Dominos while the poorest performers were Chipotle, Wingstop, and McDonalds** Overall, the results were good but the high MAPEs for a few companies and the high MAPEs for the COVID predictions certainly leave room for improvement. Moreover, more exogenous variables like commodities prices, inflation rates, and volume numbers would also enhance the dataset. Include each of those would involve making assumptions about effects just like I did for COVID death numbers. Also, other models like a VARMAX, XGBoost Regressor model, or a hybrid model may also prove fruitful. 
+**The top performers were Cracker Barrel, Papa Johns, and Starbucks while the poorest performers were Chipotle, Darden, and Wingstop** Overall, the results were good but the high MAPEs for a few companies and the high MAPEs for the COVID predictions certainly leave room for improvement. Moreover, more exogenous variables like commodities prices, inflation rates, and volume numbers would also enhance the dataset. Include each of those would involve making assumptions about effects just like I did for COVID death numbers. Also, other models like a VARMAX, XGBoost Regressor model, or a hybrid model may also prove fruitful. 
 
 # REPOSITORY STRUCTURE
 ```bash
