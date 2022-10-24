@@ -48,13 +48,13 @@ Overall, the results were good. I chose to use the LSTM model because its result
 ### TOP 3
 I chose to exclude results from the stocks with high MAPEs because their results were potentially unreliable. After eliminating them, the top perfomers were:
 
-![image](https://user-images.githubusercontent.com/101752113/196776277-eea98f98-9f21-4b79-8a2c-5ab92c4b45bf.png)
+![image](https://user-images.githubusercontent.com/101752113/197632503-a8760f24-c62a-4eea-bfb2-ea9770857f06.png)
 
-
-The worse 3 performers were:
 
 ### BOTTOM 3
-![image](https://user-images.githubusercontent.com/101752113/196776816-f0f3e3ce-676e-4841-b9c2-02ba458611b1.png)
+The worse 3 performers were:
+
+![image](https://user-images.githubusercontent.com/101752113/197632855-9a299678-fd67-4254-8c5e-7c79d8069bec.png)
 
 # CONCLUSION
 **The top performers were Cracker Barrel, Papa Johns, and Starbucks while the poorest performers were Chipotle, Darden, and Wingstop** Overall, the results were good but the high MAPEs for a few companies and the high MAPEs for the COVID predictions certainly leave room for improvement. Moreover, more exogenous variables like commodities prices, inflation rates, and volume numbers would also enhance the dataset. Include each of those would involve making assumptions about effects just like I did for COVID death numbers. Also, other models like a VARMAX, XGBoost Regressor model, or a hybrid model may also prove fruitful. 
