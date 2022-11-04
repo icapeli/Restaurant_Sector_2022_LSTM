@@ -82,11 +82,11 @@ The worse 3 performers were:
 # REPOSITORY STRUCTURE
 ```bash
 ├── gitignore
-│  
 ├── 5_year_restaurant_prices.xlsx
 ├── 7day delay.xlsx
 ├── 7day_delay_withmy_preds.xlsx
 ├── Q4 restaurant equity .ipynb
 ├── README.md
 ├── presentation.pdf
+├── volume_copy.xlsx
 ```
