@@ -36,18 +36,23 @@ Source:https://qjhong.github.io/
 Here are my projections:
 
 ![image](https://user-images.githubusercontent.com/101752113/196772766-7b716420-23cf-4403-8781-112662a9ef01.png)
-# MODELING 
+#  VOLUME MODELING 
+## PROPHET VOLUME MODELING 
+![image](https://user-images.githubusercontent.com/101752113/199973166-04fa4617-4932-4498-b206-d219a1190cd9.png)
 
-## PRICE MODELING
+## LSTM VOLUME MODELING 
+![image](https://user-images.githubusercontent.com/101752113/199973634-9ef54af4-3f09-4a9c-8bc2-c99dc79748dc.png)
 
-### Auto.Arima
+# PRICE MODELING
+
+## Auto.Arima
 ![image](https://user-images.githubusercontent.com/101752113/197634527-f5539e1b-9f52-4807-a1c5-df1e2ea3fbfa.png)
 
-### PROPHET PRICE MODEL
+## PROPHET PRICE MODEL
 
 ![image](https://user-images.githubusercontent.com/101752113/197634313-59a58446-b616-496b-916b-52b17098e771.png)
 
-### LSTM PRICE MODEL
+## LSTM PRICE MODEL
 The LSTM model numbers below represent an average of 3 models.
 ![image](https://user-images.githubusercontent.com/101752113/197634046-e27819b7-397d-44a2-807f-83bf13628597.png)
 ![image](https://user-images.githubusercontent.com/101752113/197633959-2c97463b-31b5-4eb0-addb-6e2b468d2b7c.png)
