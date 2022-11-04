@@ -64,19 +64,17 @@ The LSTM model numbers below represent an average of 3 models.
 
 ![image](https://user-images.githubusercontent.com/101752113/199975528-58e1c6de-bb85-4864-a92d-a8e0a8b6be02.png)
 
-![image](https://user-images.githubusercontent.com/101752113/197633588-67e51c0e-6300-4e1d-b15f-701817cf95c9.png)
-
+![image](https://user-images.githubusercontent.com/101752113/199975866-68962dee-833a-4fbb-b609-0ee2257c09b0.png)
 
 ### TOP 3
-I chose to exclude results from the stocks with high MAPEs because their results were potentially unreliable. After eliminating them, the top perfomers were:
+I chose to exclude results from the stocks with MAPEs over 10% because their results were potentially unreliable.  That means **Bloomin Brands, Cracker Barrel, Shake Shack, and Wendy's are all eliminated**. After eliminating them, the top perfomers were:
 
-![image](https://user-images.githubusercontent.com/101752113/197632503-a8760f24-c62a-4eea-bfb2-ea9770857f06.png)
-
+![image](https://user-images.githubusercontent.com/101752113/199976073-641fc4b1-f8c2-4db0-a146-69bc2f0d20a8.png)
 
 ### BOTTOM 3
 The worse 3 performers were:
 
-![image](https://user-images.githubusercontent.com/101752113/197633385-6cb32c4c-aff2-4d17-b32d-7ec4bb287eca.png)
+![image](https://user-images.githubusercontent.com/101752113/199976246-85966054-bc9d-4be4-addd-dcf76a564a0d.png)
 
 # CONCLUSION
 **The top performers were  Papa Johns, Dominos and McDonalds while the bottom 3 were Wingstop, Jack in the Box, and Starbucks.**  Overall, the results were good but the high MAPEs for a few companies and the high MAPEs for the COVID predictions certainly leave room for improvement. Moreover, more exogenous variables like commodities prices, and inflation rates would also enhance the dataset. Include each of those would involve making assumptions about effects just like I did for COVID death numbers. Also, other models like a VARMAX model or a hybrid model may also prove fruitful. 
