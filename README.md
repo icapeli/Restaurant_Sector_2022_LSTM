@@ -46,22 +46,23 @@ Here are my projections:
 # PRICE MODELING
 
 ## Auto.Arima
-![image](https://user-images.githubusercontent.com/101752113/197634527-f5539e1b-9f52-4807-a1c5-df1e2ea3fbfa.png)
+
+![image](https://user-images.githubusercontent.com/101752113/199974904-cbc96946-66ac-45c3-9163-bd574dfdc89e.png)
 
 ## PROPHET PRICE MODEL
 
-![image](https://user-images.githubusercontent.com/101752113/197634313-59a58446-b616-496b-916b-52b17098e771.png)
+![image](https://user-images.githubusercontent.com/101752113/199974788-324ceee9-3a3a-4ab7-852e-671d62b36e82.png)
 
 ## LSTM PRICE MODEL
 The LSTM model numbers below represent an average of 3 models.
-![image](https://user-images.githubusercontent.com/101752113/197634046-e27819b7-397d-44a2-807f-83bf13628597.png)
-![image](https://user-images.githubusercontent.com/101752113/197633959-2c97463b-31b5-4eb0-addb-6e2b468d2b7c.png)
+![image](https://user-images.githubusercontent.com/101752113/199974609-bdc21833-e10e-49da-939d-1a84811ccd8f.png)
+![image](https://user-images.githubusercontent.com/101752113/199974434-5319486d-4969-405b-891e-7aebdff87b58.png)
 Overall, the results were good. I chose to use the LSTM model because its results were the best except for a few outliers that I will have to approach with caution.
 
 ## PRICE PREDICITONS
 The LSTM model numbers below represent an average of 3 models.
 
-![image](https://user-images.githubusercontent.com/101752113/197633739-49668d7c-5969-4a65-8094-3f833bfb5373.png)
+![image](https://user-images.githubusercontent.com/101752113/199975528-58e1c6de-bb85-4864-a92d-a8e0a8b6be02.png)
 
 ![image](https://user-images.githubusercontent.com/101752113/197633588-67e51c0e-6300-4e1d-b15f-701817cf95c9.png)
 
