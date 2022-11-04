@@ -26,9 +26,9 @@ I used Yahoo Finance site to obtain my price data. I chose to settle on closing 
 
 ## LSTM 
 
-![image](https://user-images.githubusercontent.com/101752113/197634799-567c55da-86ae-4e94-afdf-0fa6863ac515.png)
+![image](https://user-images.githubusercontent.com/101752113/199972645-9ed1fc42-6ae5-45f4-b4df-19c285771115.png)
 
-Surprisingly, the Prophet model performed better than the LSTM but the  MAPE value are still quite high. However, these results do not compare unfavorably to results found elsewhere:
+Surprisingly, the Prophet model performed better than the LSTM but the  MAPE values are still quite high. However, these results do not compare unfavorably to results found elsewhere:
 ![image](https://user-images.githubusercontent.com/101752113/196505182-2cfb9325-1b72-4e30-aed9-708ae257abef.png)
 
 Source:https://qjhong.github.io/
