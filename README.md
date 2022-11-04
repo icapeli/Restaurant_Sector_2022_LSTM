@@ -22,7 +22,8 @@ I used Yahoo Finance site to obtain my price data. I chose to settle on closing 
 ## XGBoost Regressor
 ![image](https://user-images.githubusercontent.com/101752113/197634962-894adc43-49bb-4f4e-9b0c-a27c20d2df90.png)
 ## PROPHET
-![image](https://user-images.githubusercontent.com/101752113/196771390-a5af457c-43ee-47b3-8a05-d406ed568493.png)
+
+![image](https://user-images.githubusercontent.com/101752113/199979332-84b5c3dc-1a5e-4556-ae52-3ed4748bef1f.png)
 
 ## LSTM 
 
