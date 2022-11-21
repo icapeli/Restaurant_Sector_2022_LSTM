@@ -56,8 +56,8 @@ Here are my projections:
 
 ## LSTM PRICE MODEL
 The LSTM model numbers below represent an average of 3 models.
-![image](https://user-images.githubusercontent.com/101752113/199974609-bdc21833-e10e-49da-939d-1a84811ccd8f.png)
-![image](https://user-images.githubusercontent.com/101752113/199974434-5319486d-4969-405b-891e-7aebdff87b58.png)
+![image](https://user-images.githubusercontent.com/101752113/202949269-a50eb827-f8f8-4ed8-bf71-d0407fd5c483.png)
+![image](https://user-images.githubusercontent.com/101752113/202949551-dda80bb1-2438-4fd8-afcb-673fc247528e.png)
 Overall, the results were good. I chose to use the LSTM model because its results were the best except for a few outliers that I will have to approach with caution.
 
 ## PRICE PREDICITONS
@@ -68,7 +68,7 @@ The LSTM model numbers below represent an average of 3 models.
 ![image](https://user-images.githubusercontent.com/101752113/199975866-68962dee-833a-4fbb-b609-0ee2257c09b0.png)
 
 ### TOP 3
-I chose to exclude results from the stocks with MAPEs over 10% because their results were potentially unreliable.  That means **Bloomin Brands, Cracker Barrel, Shake Shack, and Wendy's are all eliminated**. After eliminating them, the top perfomers were:
+I chose to exclude results from the stocks with MAPEs over 15% because their results were potentially unreliable.  That means **Bloomin Brands, Wendys, Starbucks, and Yum are all eliminated**. After eliminating them, the top perfomers were:
 
 ![image](https://user-images.githubusercontent.com/101752113/199976073-641fc4b1-f8c2-4db0-a146-69bc2f0d20a8.png)
 
