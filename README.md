@@ -63,19 +63,20 @@ Overall, the results were good. I chose to use the LSTM model because its result
 ## PRICE PREDICITONS
 The LSTM model numbers below represent an average of 3 models.
 
-![image](https://user-images.githubusercontent.com/101752113/199975528-58e1c6de-bb85-4864-a92d-a8e0a8b6be02.png)
+![image](https://user-images.githubusercontent.com/101752113/202950259-e7705b4d-044f-4c3c-9061-08399671104e.png)
 
-![image](https://user-images.githubusercontent.com/101752113/199975866-68962dee-833a-4fbb-b609-0ee2257c09b0.png)
+![image](https://user-images.githubusercontent.com/101752113/202950609-a62a8149-7b19-4957-ab2b-0e75f64eec40.png)
 
 ### TOP 3
 I chose to exclude results from the stocks with MAPEs over 15% because their results were potentially unreliable.  That means **Bloomin Brands, Wendys, Starbucks, and Yum are all eliminated**. After eliminating them, the top perfomers were:
 
-![image](https://user-images.githubusercontent.com/101752113/199976073-641fc4b1-f8c2-4db0-a146-69bc2f0d20a8.png)
+![image](https://user-images.githubusercontent.com/101752113/202951378-8d8a5a7d-87b8-439e-a2b0-ee3e97adfacf.png)
 
 ### BOTTOM 3
 The worse 3 performers were:
 
-![image](https://user-images.githubusercontent.com/101752113/199976246-85966054-bc9d-4be4-addd-dcf76a564a0d.png)
+
+![image](https://user-images.githubusercontent.com/101752113/202952028-9752af5d-634a-4bee-a141-5ff5cafa202c.png)
 
 # CONCLUSION
 **The top performers were  Papa Johns, Dominos and McDonalds while the bottom 3 were Wingstop, Jack in the Box, and Starbucks.**  Overall, the results were good but the high MAPEs for a few companies and the high MAPEs for the COVID predictions certainly leave room for improvement. Moreover, more exogenous variables like commodities prices, and inflation rates would also enhance the dataset. Include each of those would involve making assumptions about effects just like I did for COVID death numbers. Also, other models like a VARMAX model or a hybrid model may also prove fruitful. 
@@ -88,6 +89,5 @@ The worse 3 performers were:
 ├── 7day_delay_withmy_preds.xlsx
 ├── Q4 restaurant equity .ipynb
 ├── README.md
-├── presentation.pdf
 ├── volume_copy.xlsx
 ```
