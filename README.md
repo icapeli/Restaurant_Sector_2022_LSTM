@@ -1,6 +1,6 @@
 ![image](https://user-images.githubusercontent.com/101752113/196540084-8af6bf70-e6da-49a6-b1d3-208e423aced9.png)
 # PREDICTING RESTAURANT EQUITY PRICES USING AN LSTM
-The COVID-19 pandemic has changed the landscape of the restaurant industry. This repository contains a model intended to predict restaurant equity prices for the remainder of the year 2022. Using  projected COVID-19 deaths and daily volume as an exogenous variables, I use an LSTM to predict future prices. Although the model is limited by the inherent diffculty of predicting COVID deaths, the results were solid. **The top performers were  Papa Johns, Dominos and McDonalds while the bottom 3 were Wingstop, Jack in the Box, and Starbucks.** 
+The COVID-19 pandemic has changed the landscape of the restaurant industry. This repository contains a model intended to predict restaurant equity prices for the remainder of the year 2022. Using  projected COVID-19 deaths and daily volume as an exogenous variables, I use an LSTM to predict future prices. Although the model is limited by the inherent diffculty of predicting COVID deaths, the results were solid. **The top performers were  Papa Johns, Dominos and Chipotle while the bottom 3 were Wingstop, Jack in the Box, and Cracker Barrel.** 
 # BUSINESS UNDERSTANDING
 Currently, the market is in a period of uncertainty. Interest rate hikes, supply chain questions, international conflicts, and a still unrelenting but increasingly silent pandemic hover over the marketplace. For any investors looking to save on fees and do their own trading, these problems making profitable trading a daunting task. The restaurant industry, in particular, is vulnerable to so many of those issues. 
 
@@ -79,7 +79,7 @@ The worse 3 performers were:
 ![image](https://user-images.githubusercontent.com/101752113/202952028-9752af5d-634a-4bee-a141-5ff5cafa202c.png)
 
 # CONCLUSION
-**The top performers were  Papa Johns, Dominos and McDonalds while the bottom 3 were Wingstop, Jack in the Box, and Starbucks.**  Overall, the results were good but the high MAPEs for a few companies and the high MAPEs for the COVID predictions certainly leave room for improvement. Moreover, more exogenous variables like commodities prices, and inflation rates would also enhance the dataset. Include each of those would involve making assumptions about effects just like I did for COVID death numbers. Also, other models like a VARMAX model or a hybrid model may also prove fruitful. 
+**The top performers were  Papa Johns, Dominos and Chipotle while the bottom 3 were Wingstop, Cracker Barrel, and Jack in the Box.**  Overall, the results were good but the high MAPEs for a few companies and the high MAPEs for the COVID predictions certainly leave room for improvement. Moreover, more exogenous variables like commodities prices, and inflation rates would also enhance the dataset. Include each of those would involve making assumptions about effects just like I did for COVID death numbers. Also, other models like a VARMAX model or a hybrid model may also prove fruitful. 
 
 # REPOSITORY STRUCTURE
 ```bash
@@ -90,4 +90,5 @@ The worse 3 performers were:
 ├── Q4 restaurant equity .ipynb
 ├── README.md
 ├── volume_copy.xlsx
+├── presentation.ppx
 ```
