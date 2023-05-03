@@ -89,7 +89,7 @@ The worse 3 performers were:
 ├── 7day_delay_withmy_preds.xlsx
 ├── Q4 restaurant equity .ipynb
 ├── README.md
-├── presentation.pptx
+├── capstone_presentation_pdf.pdf
 ├── volume_copy.xlsx
 
 ```
